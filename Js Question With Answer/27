@@ -1,0 +1,12 @@
+27. Write a JavaScript function that calculates the average grade of a student based on the scores they achieved in different subjects. Given is the array scores. Return the calculated average rounded to two decimal places. The length of the array will be at least 1.
+* Code -> function calculateAverageGrade(scores) {
+  let sum=0,avg=0;
+  for(let i=0;i<scores.length;i++){
+     sum += scores[i];
+  }
+  avg = sum/scores.length;
+  return  parseFloat(avg.toFixed(2));
+}
+
+
+//This function calculates the average grade rounded to two decimal places based on an array of scores.

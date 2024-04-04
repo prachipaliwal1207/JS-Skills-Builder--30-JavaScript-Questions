@@ -1,0 +1,8 @@
+29. An object obj is given. Change this object to a JSON string and return it. (Object to JSON)
+* Code -> function object2JSON(obj) {
+  let con = JSON.stringify(obj);
+  return con;
+} 
+
+
+//This function converts an object to a JSON string using JSON.stringify().

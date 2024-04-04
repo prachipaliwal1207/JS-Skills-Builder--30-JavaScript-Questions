@@ -1,0 +1,6 @@
+30. A string sentence is given. Return true if the block starts with "Hello".
+* Code -> function firstHello(sentence) {
+    return  sentence.indexOf('Hello') === 0
+}
+
+//This function checks if the given string starts with the word 'Hello'. If it does, it returns true, otherwise false.

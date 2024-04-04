@@ -1,0 +1,31 @@
+15. Read the first name and last name from the inputs (#firstname and #lastname) and write the full name into the #fullname input. If an input is not filled add this placeholder #.
+
+Example:
+
+First name: Jane, last name: Doe => Jane Doe
+First name: empty, last name: Doe: # Doe
+First name: Jane, last name: empty: Jane #
+* Code -> 
+function whatIsMyName() {
+      var firstName = document.getElementById('firstname').value;
+      var lastName = document.getElementById('lastname').value;
+      var fullName = "";
+
+      if (firstName === "") {
+        fullName += "#";
+      } else {
+        fullName += firstName;
+      }
+
+      fullName += " ";
+
+      if (lastName === "") {
+        fullName += "#";
+      } else {
+        fullName += lastName;
+      }
+
+      document.getElementById('fullname').value = fullName;
+}
+
+//This function reads first and last names from input fields and writes the full name into another input field, adding '#' for empty inputs.

@@ -1,0 +1,7 @@
+21. Set the given checkbox (#my-checkbox) checked.
+* Code -> function checkMe() {
+    document.getElementById("my-checkbox").checked = true;
+}
+
+//This function sets the checked attribute of a checkbox element to true, making it checked.
+

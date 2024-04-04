@@ -1,0 +1,7 @@
+13. The parameter n is given. Return the difference of n to the number 42. The number must be positive.
+* Code -> function difference42(n) {
+  return Math.abs(n-42);
+}
+
+
+//This function calculates the absolute difference between the given number and 42.

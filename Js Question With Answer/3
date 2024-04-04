@@ -1,0 +1,6 @@
+3. Two numbers are given a and b. Return true if one of the two numbers is 42 or the sum of the two numbers.
+* Code -> function is42(a, b) {
+  return a==42 || b==42  || a+b==42;
+}
+
+//This function checks if either of the two numbers is 42 or if their sum equals 42. If any of these conditions are met, it returns true, otherwise false.

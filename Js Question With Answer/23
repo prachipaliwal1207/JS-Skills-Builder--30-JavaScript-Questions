@@ -1,0 +1,11 @@
+23. Given is a decimal number dec. Return this number as a number in the binary number system.
+* Code -> function dec2bin(dec) {
+   let remainder='';
+   while(dec>0){
+      remainder =(dec%2)+remainder;
+     dec = Math.floor(dec/2);
+   }
+  return remainder;
+}
+
+//This function converts a decimal number to its binary representation.

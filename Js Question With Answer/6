@@ -1,0 +1,10 @@
+6. A string url is given. It contains a URL with the HTTP protocol. Return this URL with the HTTPS protocol.
+
+Example:
+
+http://jscodebox.com/ => https://jscodebox.com/
+* Code -> function http2https(url) {
+  return url.replace('http://','https://');
+}
+
+//This function replaces 'http://' with 'https://' in the given URL string.

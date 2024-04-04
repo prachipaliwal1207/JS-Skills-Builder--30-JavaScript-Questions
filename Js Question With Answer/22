@@ -1,0 +1,15 @@
+22.Given is a string hangmanString. Replace every second letter with an underscore and return the result as a string. The first character must be an underscore.
+* Code -> function hangman(hangmanString) {
+  let modifiedString = "";
+   for(let i=0;i<hangmanString.length;i++){
+     if(i%2==0){
+      modifiedString+='_';
+     }else{
+      modifiedString+=hangmanString[i];
+     }
+   }
+  return  modifiedString;
+}
+
+
+//This function creates a new string where every second letter, starting from the second letter of the original string, is replaced with an underscore.

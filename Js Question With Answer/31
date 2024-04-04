@@ -1,0 +1,22 @@
+31. Three positive numbers are given: a, b and c. Return true if at least two of the numbers have the same last digit.
+
+* Code -> function lastButNotLeast(a, b, c) {
+  let lastDigitA = a%10;
+  let lastDigitB = b%10;
+ let lastDigitC = c%10;
+  if ((lastDigitA === lastDigitB) || (lastDigitA === lastDigitC) || (lastDigitB === lastDigitC)) {
+        return true;
+    }
+    return false;
+}
+
+//This function takes three positive numbers as input and checks if at least two of them have the same last digit. If they do, it returns true, otherwise false.
+
+
+--->> Explanation:
+
+* The function first extracts the last digit of each number using the modulo operator % 10.
+* It then compares the last digits of all pairs of numbers to see if any two numbers have the same last digit.
+* If any pair of numbers has the same last digit, it returns true.
+* If no pair of numbers has the same last digit, it returns false.
+* This function efficiently checks if there are at least two numbers among the given three numbers that share the same last digit.

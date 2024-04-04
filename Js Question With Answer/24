@@ -1,0 +1,11 @@
+24. Given is a string item, with an item and a price in brackets. Return the price.
+
+Example: Ice ($4.20) => $4.20
+* Code -> function getPrice(item) {
+ let startBracket = item.indexOf('(');
+ let endBracket = item.indexOf(')');
+  return item.substring(startBracket+1, endBracket);
+}
+
+
+This function extracts and returns the price from a string formatted as 'item (price)'.

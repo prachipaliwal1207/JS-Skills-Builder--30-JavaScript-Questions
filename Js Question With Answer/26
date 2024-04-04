@@ -1,0 +1,20 @@
+26. Given is an array numbers with different numbers. Return an array in which the first entry is swapped with the last. The rest remains unchanged.
+* Code -> function swap(numbers) {
+ if(numbers.length == 1){
+   return numbers;
+ }
+  if(numbers ==""){
+    return numbers;
+  }
+ let start = 0;
+ let end=numbers.length-1;
+ while (start<end) {
+    let temp =numbers[start];
+   numbers[start] = numbers[end];
+   numbers[end] = temp;
+    return numbers;
+ }
+}
+
+
+//This function swaps the first and last elements of the given array.

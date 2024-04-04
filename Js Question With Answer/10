@@ -1,0 +1,6 @@
+10. A string string is given. Replace every occurrence of the word 'bug' with the word 'flower'.
+* Code -> function bugFix(string) {
+  return string.replace('bug','flower');
+}
+
+//This function replaces the first occurrence of 'bug' with 'flower' in the given string.

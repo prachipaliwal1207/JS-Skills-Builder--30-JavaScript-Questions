@@ -1,0 +1,10 @@
+12. Two numbers are given a and b. Return their sum. If both numbers are equal, return their product.
+* Code -> function totalProduct(a, b) {
+   if(a==b){
+     return a*b;
+   }else{
+     return a+b;
+   }
+}
+
+//This function returns the sum of two numbers unless they are equal, in which case it returns their product.

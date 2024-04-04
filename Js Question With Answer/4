@@ -1,0 +1,21 @@
+4. The HTML element .bg is given. Change the background color of this element to 'blue'.
+* Code -> <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+    <style>
+        .bg {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <!-- Content here -->
+    </div>
+</body>
+</html>
+
+//This CSS code changes the background color of elements with the class .bg to blue.

@@ -1,0 +1,10 @@
+18. Given are two arrays a and b, both have three elements. Return a new array of length 2 containing both middle (index 1) elements of the arrays.
+* Code -> function goldenMiddle(a, b) {
+   let low=0;
+  let high=2;
+  let mid=(low+high)/2;
+  return [a[mid],b[mid]];
+}
+
+
+//This function returns an array containing the middle elements of the two given arrays.

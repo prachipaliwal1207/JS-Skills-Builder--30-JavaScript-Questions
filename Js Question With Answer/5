@@ -1,0 +1,6 @@
+5. Given is an array chars with different letters. Return the array in reverse order.
+* Code -> function reverseLetters(chars) {
+    return chars.reverse();
+}
+
+//This function reverses the order of elements in the given array.

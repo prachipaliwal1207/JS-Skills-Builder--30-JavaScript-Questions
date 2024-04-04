@@ -1,0 +1,15 @@
+19.Given is an array n with integers. Return true if it contains more four than zero.
+* Code -> function more4than0(n) {
+  if(n==""){
+      return false;
+  }
+  for(let i=0;i<n.length;i++){
+    if(n[i]==0){
+    return false;
+      break;
+  }
+  }
+    return true;
+}
+
+//This function checks if the given array contains more instances of the number four than zero. If so, it returns true, otherwise false.

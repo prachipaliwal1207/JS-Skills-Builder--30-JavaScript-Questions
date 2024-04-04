@@ -1,0 +1,8 @@
+11. Given is a text headline. Write this string in a h1 HTML tag and append it to the HTML body.
+* Code -> function printHeadline(headline) {
+  let elementH1 = document.createElement("h1");
+elementH1.textContent = headline;
+  document.body.appendChild(elementH1);
+}
+
+//This function creates an h1 element with the given headline and appends it to the HTML body.

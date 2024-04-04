@@ -1,0 +1,7 @@
+28. Given is a JSON string json. Convert this string into an object and return the parameter title of the created object. (JSON to Object)
+* Code -> function json2Object(json) {
+  let con = JSON.parse(json);
+  return con.title;
+}
+
+//This function parses a JSON string into an object and returns a specific property of that object.

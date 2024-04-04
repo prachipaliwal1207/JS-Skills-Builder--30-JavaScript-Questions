@@ -1,0 +1,4 @@
+1. Log 'Hello World' in the console - the best known task of programming!
+* Code -> console.log('Hello world')
+
+//This code simply prints 'Hello World' to the browser console using console.log().

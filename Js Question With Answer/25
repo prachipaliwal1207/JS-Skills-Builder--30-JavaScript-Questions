@@ -1,0 +1,17 @@
+25. A variable pali is given. Return true if it is a palindrome. Otherwise false. A palindrome is a word that is read forward and backward, resulting in the same word.
+* Code -> function palindrome(pali) {
+  let start=0;
+  let end=pali.length-1;
+ while(start<end){
+   if(pali[start]!=pali[end]){
+   return false;
+   }else{
+          start++; end--;
+   }
+ }
+  return true;
+
+}
+
+
+//This function checks if a string is a palindrome, meaning it reads the same forwards and backwards.

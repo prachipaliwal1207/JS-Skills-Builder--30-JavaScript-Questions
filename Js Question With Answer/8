@@ -1,0 +1,14 @@
+8. Two variables are given key and value. Return these values in JSON notation, but as a string, not an JSON object.
+
+Example:
+
+{"name": "JSCodebox"}
+* Code -> function firstJSON(key, value) {
+    const json = {
+        [key]:value
+    };
+    return JSON.stringify(json);
+}
+
+
+//This function creates a JSON object with the given key-value pair and then converts it to a string using JSON.stringify().
